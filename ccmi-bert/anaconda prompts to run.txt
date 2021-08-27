@@ -1,0 +1,7 @@
+Create Pretraining examples
+
+python create_pretraining_data.py --input_file ../data/dummy_data_1000_128_40.npy --output_file ../data/dummy_examples.tfrecord
+
+Pretraining
+
+python run_pretraining.py --bert_config_file ./example_config.json --input_file ../data/dummy_examples.tfrecord --output_dir ./outputs --do_train

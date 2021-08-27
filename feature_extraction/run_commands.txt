@@ -1,0 +1,3 @@
+python extract_features.py --input_dir ../data/mp3_samples --output_dir ../data/feature_extraction_test --output_dtype float16
+
+python extract_features.py --input_dir ../../music4all/music4all/audios --output_dir ../../music4all_extracted --output_dtype float16
